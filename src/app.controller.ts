@@ -1,7 +1,7 @@
 import { Controller, Post, Body } from '@nestjs/common';
 import axios from 'axios';
 
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = '***** SUPER SECRET KEY HERE *****';
 const OPENAI_API_ENDPOINT = 'https://api.openai.com/v1/completions';
 
 @Controller()
